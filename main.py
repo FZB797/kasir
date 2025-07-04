@@ -1,7 +1,5 @@
 # === main.py ===
 # DIP - Menggunakan dependency abstraction (Cart, Inventory, TransactionManager)
-# Tidak membuat logika baru; hanya mengatur interaksi antar komponen
-
 from cart import Cart
 from inventory import Inventory
 from transaction_manager import TransactionManager
@@ -76,7 +74,7 @@ def menu():
             break
 
         else:
-            print("⚠️ Pilihan tidak valid. Silakan pilih 1–5.")
+            print("⚠️ Pilihan tidak valid. Silakan pilih 1-5.")
 
 if __name__ == "__main__":
     menu()
